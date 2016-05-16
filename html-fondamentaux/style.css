@@ -1,0 +1,18 @@
+body {
+  background-color: darksalmon;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: lavender;
+  font-family: Arial;
+}
+
+p, li {
+  font-family: Courier New;
+}
+
+img {
+  border: 5px solid red;
+}

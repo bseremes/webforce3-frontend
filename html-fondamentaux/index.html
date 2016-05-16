@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<!-- Ceci est un commentaire et ne sera pas affiché -->
+<!-- Le head permet de donner des informations sur le document, un peu comme une pièce d'identité -->
+
+<head>
+    <!-- Ceci est le jeu de caractères -->
+    <meta charset="utf-8" />
+
+    <!-- Ceci est le titre affiché par le navigateur (onglet ou titre de la fenêtre) -->
+    <title>Ma première page Web</title>
+
+    <!-- Ici nous référençons un document, plus particulièrement une feuille de style qui sera également téléchargée -->
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+
+<!-- Le body permet de définir le contenu de notre page -->
+
+<body>
+    <div>
+        <!-- Ville -->
+        <h1>Hello Perray !</h1>
+        <!-- Rue -->
+        <h2>Hello Rue de l'église</h2>
+        <!-- Détails -->
+        <h3>Hello Webforce3</h3>
+        <p>Aujourd'hui, nous débutons notre formation en <em>développement Web</em> à <strong>le Perray</strong>. Cette formation nous a été possible grâce à :</p>
+        <ul>
+            <li>l'ADNPY</li>
+            <li><a href="http://www.wf3.fr/" target="__blank">Webforce3</a></li>
+        </ul>
+        <img src="https://unsplash.it/500">
+
+        <h3>Lorem Ipsum</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum mauris in arcu placerat, nec dignissim orci varius. Cras nec elit non justo egestas sodales vitae ac mauris. Duis porttitor tortor vitae libero bibendum tempor. Aliquam dictum erat at nibh pharetra porttitor. Sed ex leo, gravida vitae lorem vel, fringilla sodales urna. Vestibulum aliquet eros ut arcu luctus cursus. Vivamus pretium vestibulum turpis, in bibendum augue lacinia a. Quisque tempus volutpat mauris in vehicula. Phasellus sit amet enim sed odio cursus dictum eu nec massa. Mauris pharetra metus neque, iaculis scelerisque velit sagittis vitae.
+        </p>
+
+        <h3>Inscrivez-vous</h3>
+        <!-- Un joli formulaire d'inscription -->
+        <form>
+            <fieldset>
+
+                <label for="text">Nom</label>
+                <input type="text" name="text" id="text">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+
+                <label for="numeric">Age</label>
+                <input type="number" name="numeric" id="numeric">
+
+                <label for="date">Date souhaitée</label>
+                <input type="date" name="date" id="date">
+
+                <label for="range">Expérience</label>
+                <input type="range" name="range" />
+
+                <label for="url">Url préférée</label>
+                <input type="url" id="url" name="url">
+
+                <label for="color-picker">Couleur préférée</label>
+                <input type="color" name="color-picker" id="color-picker">
+
+                <button type="submit" class="boutonSubmit" role="button" aria-disabled="false">
+                    Soumettre le formulaire
+                </button>
+                </p>
+
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
